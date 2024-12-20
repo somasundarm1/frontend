@@ -45,7 +45,7 @@ const Login = () => {
         if (!validateForm()) return;
 
         try {
-            const res = await fetch('http://172.16.5.200:8080/add-values', {
+            const res = await fetch('https://backend-cgdz.onrender.com/add-values', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
